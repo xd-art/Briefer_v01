@@ -1,0 +1,4 @@
+Apache
+RewriteCond %{REQUEST_URI} ^/(wp-admin|wp-includes) [NC]
+RewriteRule ^(.*)$ - [F]
+

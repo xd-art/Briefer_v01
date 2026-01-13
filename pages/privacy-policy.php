@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="/css/mail.css">
+    <link rel="icon" href="/images/briefer-icon.svg">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Briefer: About</title>
+</head>
+
+<body>
+
+    <div class="container-grid-brief">
+
+        <?php
+        include '../blocks/navigation.php';
+        ?>
+
+        <div class="brief">
+
+            <article>
+                <h1>Privacy Policy for Briefer</h1>
+
+                <p>At Briefer, accessible from https://briefer.pro, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Briefer and how we use it.</p>
+
+                <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
+
+                <h2>Log Files</h2>
+
+                <p>Briefer follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information. Our Privacy Policy was created with the help of the <a href="https://www.privacypolicygenerator.org">Privacy Policy Generator</a>.</p>
+
+
+                <h2>Google DoubleClick DART Cookie</h2>
+
+                <p>Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to www.website.com and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – <a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+
+                <h2>Our Advertising Partners</h2>
+
+                <p>Some of advertisers on our site may use cookies and web beacons. Our advertising partners are listed below. Each of our advertising partners has their own Privacy Policy for their policies on user data. For easier access, we hyperlinked to their Privacy Policies below.</p>
+
+                <ul>
+                    <li>
+                        <p>Google</p>
+                        <p><a href="https://policies.google.com/technologies/ads">https://policies.google.com/technologies/ads</a></p>
+                    </li>
+                </ul>
+
+                <h2>Privacy Policies</h2>
+
+                <P>You may consult this list to find the Privacy Policy for each of the advertising partners of Briefer.</p>
+
+                <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Briefer, which are sent directly to users' browser. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit.</p>
+
+                <p>Note that Briefer has no access to or control over these cookies that are used by third-party advertisers.</p>
+
+                <h2>Third Party Privacy Policies</h2>
+
+                <p>Briefer's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p>
+
+                <p>You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
+
+                <h2>Children's Information</h2>
+
+                <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
+
+                <p>Briefer does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
+
+                <h2>Online Privacy Policy Only</h2>
+
+                <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Briefer. This policy is not applicable to any information collected offline or via channels other than this website.</p>
+
+                <h2>Consent</h2>
+
+                <p>By using our website, you hereby consent to our Privacy Policy and agree to its Terms and Conditions.</p>
+
+
+
+            </article>
+
+            <hr class="brief--hr">
+
+
+            <h2>Contact with us</h2>
+
+            <p>If you want to cooperate with us, write us a letter and tell us about yourself and your ideas.</p>
+
+
+            <p class="--gray">Email and message are requared fields. Message should be more than 10 characters </p>
+            <form action="check.php" method="post" class="container-mail">
+
+
+                <div>
+                    <input type="email" name="email" placeholder="Enter your e-mail">
+                </div>
+
+                <br>
+
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Write message"></textarea>
+                <div>
+                    <br>
+                    <button onclick="location.href='#'" type="submit" name="send" class="blue-button">
+
+                        <span class="material-icons">mail</span>
+                        Send mail
+                    </button>
+                </div>
+
+
+            </form>
+
+
+        </div>
+
+
+
+        <div class="side">
+
+
+
+            <div class="side__content">
+
+                <?php
+                include '../blocks/side.php';
+                ?>
+
+            </div>
+        </div>
+
+        <?php
+        include '../blocks/footer.php';
+        ?>
+
+    </div>
+</body>
+
+</html>

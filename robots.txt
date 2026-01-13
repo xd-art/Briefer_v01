@@ -1,0 +1,4 @@
+Sitemap: https://briefer.pro/sitemap.xml
+
+User-agent: Googlebot
+Disallow: /video

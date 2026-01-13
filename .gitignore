@@ -1,0 +1,17 @@
+/vendor/
+/node_modules/
+.DS_Store
+*.log
+.env
+/build/
+/briefer-react-app/node_modules/
+/briefer-react-app/build/
+----phpmailer.php
+.vscode/
+
+# Added common exclusions
+.idea/
+*.swp
+*.bak
+composer.phar
+.phpunit.result.cache

@@ -1,0 +1,17 @@
+{
+    "name": "briefer/khorzhevskyi",
+    "description": "Database of Articles with Professional Project Briefs and Technical Requirements for Digital Work",
+    "autoload": {
+        "psr-4": {
+            "Briefer\\Khorzhevskyi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danylo Khorzhevskyi"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
